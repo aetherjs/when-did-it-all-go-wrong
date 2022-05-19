@@ -10,13 +10,26 @@ Potential developments:
 
 The list is incomplete and if you're seeing this by chance and would like to contribute/help/support, feel free to raise an issue or contact me on telegram @netherjs
 
+## Immidiate Next Steps/Open Tasks
+
+- Add several lines each one telling the time in different time units (from days to seconds)
+- Add header/footer with links to useful info/resources
+
 ## Current Usage
 
 ```shell
 yarn start
 ```
 
-To set the dev server going
+To set the dev server going. Classic react stuff uno.
+
+This is currently served to GitHub pages cause unless I can make it look worthy I am not bothering with a hosting. Also, I can't even really figure this shit DNS shit out so far (trying to use custom domain I bought - http://whendiditallgowrong.live). In order to publish the lates version on pages use: 
+
+```shell
+yarn run deploy
+```
+
+Using [react-gh-pages](https://github.com/gitname/react-gh-pages) so refer to docs for any more info.
 
 ## Some stuff I might need later for build and deployment
 
