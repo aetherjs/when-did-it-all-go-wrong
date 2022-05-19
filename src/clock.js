@@ -1,13 +1,14 @@
 import React, { Component } from 'react';
+import { formatDistanceToNowStrict } from 'date-fns'
 import './clock.css'
 
 class Clock extends Component {
 
     constructor(props) {
         super(props);
-        //This declared the state of time at the very beginning
+        this.startTime = new Date('February 24, 2022 05:00:00')
         this.state = {
-            time: new Date().toLocaleTimeString()
+            displayTime: formatDistanceToNowStrict(this.startTime, {unit: 'day'})
         }
     }
 
@@ -27,14 +28,14 @@ class Clock extends Component {
     //This function set the state of the time to a new time
     updateClock() {
         this.setState({
-            time: new Date().toLocaleTimeString()
+            displayTime: formatDistanceToNowStrict(this.startTime, {unit: 'day'})
         });
     }
 
     render() {
         return (
             <div className="Time">
-                <p> {this.state.time}</p>
+                <p> {this.state.displayTime}</p>
             </div>
         );
     }
