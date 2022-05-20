@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/when-did-it-all-go-wrong/static/css/main.ec023153.css",
-    "main.js": "/when-did-it-all-go-wrong/static/js/main.8e7d6804.js",
-    "index.html": "/when-did-it-all-go-wrong/index.html",
-    "main.ec023153.css.map": "/when-did-it-all-go-wrong/static/css/main.ec023153.css.map",
-    "main.8e7d6804.js.map": "/when-did-it-all-go-wrong/static/js/main.8e7d6804.js.map"
+    "main.css": "/static/css/main.916d853f.css",
+    "main.js": "/static/js/main.8e7d6804.js",
+    "index.html": "/index.html",
+    "main.916d853f.css.map": "/static/css/main.916d853f.css.map",
+    "main.8e7d6804.js.map": "/static/js/main.8e7d6804.js.map"
   },
   "entrypoints": [
-    "static/css/main.ec023153.css",
+    "static/css/main.916d853f.css",
     "static/js/main.8e7d6804.js"
   ]
 }
