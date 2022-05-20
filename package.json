@@ -1,8 +1,8 @@
 {
   "name": "doomtimer",
   "version": "0.1.0",
-  "homepage": "https://aetherjs.github.io/when-did-it-all-go-wrong/",
-  "private": true,
+  "homepage": "https://aetherjs.github.io/",
+  "private": false,
   "dependencies": {
     "@emotion/react": "^11.9.0",
     "@emotion/styled": "^11.8.1",
@@ -20,7 +20,7 @@
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-    "start": "react-scripts start",
+    "start": "HOST=0.0.0.0 react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -44,6 +44,7 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^4.0.0"
+    "gh-pages": "^4.0.0",
+    "webpack-cli": "^4.9.2"
   }
 }
